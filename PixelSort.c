@@ -25,6 +25,7 @@ void read_png_file(char *filename) {
   png_init_io(png, fp);
 
   png_read_info(png, info);
+  
 
   width      = png_get_image_width(png, info);
   height     = png_get_image_height(png, info);
